@@ -61,7 +61,7 @@ public class MemberService {
         SendMessage message = new SendMessage();
   
         String numStr = "예약이 취소되셨습니다. 자세한 사항은 문의 바랍니다";
-        message.sendMsg(phone, numStr);
+        //message.sendMsg(phone, numStr);
 
         return numStr;
     }

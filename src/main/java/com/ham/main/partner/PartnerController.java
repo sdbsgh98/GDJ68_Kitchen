@@ -66,7 +66,7 @@ public class PartnerController {
 	@GetMapping("partnerRegister")
 	public ModelAndView setPartnerJoin() throws Exception {
 		ModelAndView mv = new ModelAndView();
-		mv.addObject("serviceKey", SERVICE_KEY);
+		//mv.addObject("serviceKey", SERVICE_KEY);
 		mv.setViewName("/partner/partnerRegister");
 		
 		return mv;

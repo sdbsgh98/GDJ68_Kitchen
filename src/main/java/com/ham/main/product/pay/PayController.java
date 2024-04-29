@@ -160,11 +160,11 @@ public class PayController {
 		refundDTO.setRefundAmount(payAmount);
 		refundDTO.setRefundReason(reason);
 
-		String token = portController.getImportToken();
+		//String token = portController.getImportToken();
 		payDTO = payService.getDetail(payDTO);
 		String uid = payDTO.getPayNum().toString();
 
-		portController.payMentCancle(token, uid, refundDTO.getRefundAmount(), reason);
+		//portController.payMentCancle(token, uid, refundDTO.getRefundAmount(), reason);
 
 		int result = payService.setRefund(refundDTO);
 

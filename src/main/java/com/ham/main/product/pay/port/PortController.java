@@ -33,7 +33,7 @@ import retrofit2.Response;
 
 @Controller
 public class PortController {
-	
+	/*
 	private IamportClient api;
 	
 	
@@ -124,7 +124,7 @@ public class PortController {
 		br.close();
 		conn.disconnect();
 	}
-	
+	*/
 
 	 
 }
